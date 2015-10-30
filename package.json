@@ -1,11 +1,18 @@
 {
   "name": "babel-preset-es2015-node5",
-  "description": "Babel preset to make node@5 fully ES2015 compatible.",
+  "description": "Babel preset to make node@5 ES2015 compatible.",
   "repository": "git://github.com/alekseykulikov/babel-preset-es2015-node5.git",
   "version": "1.0.0",
   "license": "MIT",
+  "scripts": {
+    "test": "eslint index.js test/ && mocha test/index.js"
+  },
   "dependencies": {
-    "babel-plugin-transform-es2015-destructuring": "^6.0.2"
+    "babel-plugin-transform-es2015-destructuring": "^6.0.2",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.0.12",
+    "babel-plugin-transform-es2015-parameters": "^6.0.2",
+    "babel-plugin-transform-es2015-sticky-regex": "^6.0.2",
+    "babel-plugin-transform-es2015-unicode-regex": "^6.0.2"
   },
   "devDependencies": {
     "babel-core": "^6.0.12",
