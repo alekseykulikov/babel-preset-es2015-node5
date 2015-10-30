@@ -1,0 +1,3 @@
+--reporter spec
+--colors
+--require ./test/babel

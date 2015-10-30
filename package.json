@@ -1,0 +1,15 @@
+{
+  "name": "babel-preset-es2015-node5",
+  "description": "Babel preset to make node@5 fully ES2015 compatible.",
+  "repository": "git://github.com/alekseykulikov/babel-preset-es2015-node5.git",
+  "version": "1.0.0",
+  "license": "MIT",
+  "dependencies": {
+    "babel-plugin-transform-es2015-destructuring": "^6.0.2"
+  },
+  "devDependencies": {
+    "babel-core": "^6.0.12",
+    "chai": "^3.4.0",
+    "mocha": "^2.3.3"
+  }
+}
