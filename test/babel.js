@@ -1,1 +1,1 @@
-require('babel-core/register')(require('../index'))
+require('babel-core/register')(require('../lib'))
