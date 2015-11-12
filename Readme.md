@@ -7,7 +7,8 @@ this module just adds missing features:
 - destructing assignment
 - rest & default parameters
 - modules
-- unicode and sticky regular expressions
+- unicode & sticky regular expressions
+- better function name support
 
 ## Install
 

@@ -20,6 +20,7 @@
   },
   "dependencies": {
     "babel-plugin-transform-es2015-destructuring": "^6.1.4",
+    "babel-plugin-transform-es2015-function-name": "^6.1.4",
     "babel-plugin-transform-es2015-modules-commonjs": "^6.1.4",
     "babel-plugin-transform-es2015-parameters": "^6.1.4",
     "babel-plugin-transform-es2015-sticky-regex": "^6.1.4",
