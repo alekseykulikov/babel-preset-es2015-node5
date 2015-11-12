@@ -3,6 +3,7 @@
     "mocha": true
   },
   "extends": "airbnb/base",
+  "parser": "babel-eslint",
   "rules": {
     "semi": [2, "never"],
     "object-curly-spacing": [2, "always"],
