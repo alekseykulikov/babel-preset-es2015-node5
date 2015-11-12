@@ -2,14 +2,15 @@
   "name": "babel-preset-es2015-node5",
   "description": "Babel preset to make node@5 ES2015 compatible.",
   "repository": "git://github.com/alekseykulikov/babel-preset-es2015-node5.git",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "license": "MIT",
   "keywords": [
     "babel-preset-es2015",
     "babel-preset",
     "babel",
     "node5",
-    "es2015"
+    "es2015",
+    "es6"
   ],
   "main": "lib/index.js",
   "files": [
