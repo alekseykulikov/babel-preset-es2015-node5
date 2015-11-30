@@ -16,10 +16,10 @@ this module just adds missing features:
 
 ## Usage
 
-### Via `.babelrc` (recommended)
-
 Read ["Configuring Babel 6" article](http://www.2ality.com/2015/11/configuring-babel6.html)
 for more information about babel@6 configuration.
+
+### Via `.babelrc` (recommended)
 
 **.babelrc**
 
