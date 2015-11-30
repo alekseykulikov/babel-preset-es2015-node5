@@ -1,24 +1,25 @@
 # babel-preset-es2015-node5
 
-> Babel preset to make node@5 ES2015 compatible.
+> Babel preset to make node@5 fully ES2015 compatible.
 
 Node@5 has great [ES2015 support](https://nodejs.org/en/docs/es6/),
 this module just adds missing features:
-- destructing assignment
-- rest & default parameters
-- modules
-- unicode & sticky regular expressions
-- better function name support
+- destructing assignment ([transform-es2015-destructuring](http://babeljs.io/docs/plugins/transform-es2015-destructuring/))
+- rest & default parameters ([transform-es2015-parameters](http://babeljs.io/docs/plugins/transform-es2015-parameters/))
+- modules ([transform-es2015-modules-commonjs](http://babeljs.io/docs/plugins/transform-es2015-modules-commonjs/))
+- unicode & sticky regular expressions ([transform-es2015-sticky-regex](http://babeljs.io/docs/plugins/transform-es2015-sticky-regex/) & [transform-es2015-unicode-regex](http://babeljs.io/docs/plugins/transform-es2015-unicode-regex/))
+- better function name support ([transform-es2015-function-name](http://babeljs.io/docs/plugins/transform-es2015-function-name/))
 
 ## Install
 
-```sh
-$ npm install --save-dev babel-preset-es2015-node5
-```
+    npm install --save-dev babel-preset-es2015-node5
 
 ## Usage
 
 ### Via `.babelrc` (recommended)
+
+Read ["Configuring Babel 6" article](http://www.2ality.com/2015/11/configuring-babel6.html)
+for more information about babel@6 configuration.
 
 **.babelrc**
 
@@ -30,13 +31,11 @@ $ npm install --save-dev babel-preset-es2015-node5
 
 ### Via CLI
 
-```sh
-$ babel script.js --preset es2015-node5
-```
+    babel script.js --preset es2015-node5
 
 ### Via Node API
 
-```javascript
+```js
 require('babel-core').transform('code', {
   presets: ['es2015-node5'],
 })
