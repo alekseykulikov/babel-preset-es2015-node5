@@ -31,7 +31,7 @@ for more information about babel@6 configuration.
 
 ### Via CLI
 
-    babel script.js --preset es2015-node5
+    babel script.js --presets es2015-node5
 
 ### Via Node API
 
