@@ -2,6 +2,9 @@
 
 > Babel preset to make node@5 fully ES2015 compatible.
 
+[![](https://img.shields.io/npm/v/babel-preset-es2015-node5.svg)](https://npmjs.org/package/babel-preset-es2015-node5)
+[![](http://img.shields.io/npm/dm/babel-preset-es2015-node5.svg)](https://npmjs.org/package/babel-preset-es2015-node5)
+
 Node@5 has great [ES2015 support](https://nodejs.org/en/docs/es6/),
 this module just adds missing features:
 - destructing assignment ([transform-es2015-destructuring](http://babeljs.io/docs/plugins/transform-es2015-destructuring/))
