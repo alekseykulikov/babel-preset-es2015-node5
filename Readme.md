@@ -3,6 +3,7 @@
 > Babel preset to make node@5 fully ES2015 compatible.
 
 [![](https://img.shields.io/npm/v/babel-preset-es2015-node5.svg)](https://npmjs.org/package/babel-preset-es2015-node5)
+[![](https://img.shields.io/travis/alekseykulikov/babel-preset-es2015-node5.svg)](https://travis-ci.org/alekseykulikov/babel-preset-es2015-node5)
 [![](http://img.shields.io/npm/dm/babel-preset-es2015-node5.svg)](https://npmjs.org/package/babel-preset-es2015-node5)
 
 Node@5 has great [ES2015 support](https://nodejs.org/en/docs/es6/),
