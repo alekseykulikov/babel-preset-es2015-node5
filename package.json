@@ -20,15 +20,15 @@
     "test": "eslint lib/ test/ && mocha test/index.js"
   },
   "dependencies": {
-    "babel-plugin-transform-es2015-destructuring": "^6.2.4",
-    "babel-plugin-transform-es2015-function-name": "^6.2.4",
-    "babel-plugin-transform-es2015-modules-commonjs": "^6.2.4",
-    "babel-plugin-transform-es2015-parameters": "^6.2.4",
-    "babel-plugin-transform-es2015-sticky-regex": "^6.2.4",
-    "babel-plugin-transform-es2015-unicode-regex": "^6.2.4"
+    "babel-plugin-transform-es2015-destructuring": "^6.4.0",
+    "babel-plugin-transform-es2015-function-name": "^6.4.0",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.4.5",
+    "babel-plugin-transform-es2015-parameters": "^6.4.5",
+    "babel-plugin-transform-es2015-sticky-regex": "^6.3.13",
+    "babel-plugin-transform-es2015-unicode-regex": "^6.4.3"
   },
   "devDependencies": {
-    "babel-core": "^6.2.4",
+    "babel-core": "^6.4.5",
     "babel-eslint": "^5.0.0-beta6",
     "chai": "^3.4.1",
     "eslint": "^1.10.3",
