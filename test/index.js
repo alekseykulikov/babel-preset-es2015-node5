@@ -18,4 +18,22 @@ describe('babel-preset-es2015-node5', () => {
     expect('𠮷'.match(/^.$/u)[0].length).equal(2) // eslint-disable-line no-empty-character-class
     expect('𝌆'.match(/\u{1d306}/u)[0].length).equal(2) // eslint-disable-line no-empty-character-class
   })
+
+  it('block scope', () => {
+    const arr = ['a', 'b', 'c']
+    const arrCopy = []
+    for (const key of arr) {
+      arrCopy.push(key)
+    }
+    expect(arrCopy).eql(arr)
+
+    const obj = { a: 'b', c: 'd', e: 'f' }
+    const objCopy = {}
+    for (const key in obj) {
+      if (obj.hasOwnProperty(key)) {
+        objCopy[key] = obj[key]
+      }
+    }
+    expect(objCopy).eql(obj)
+  })
 })
