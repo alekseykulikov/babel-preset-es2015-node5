@@ -1,3 +1,10 @@
+## 1.1.2 / 2016-01-21
+
+* pin deps to `^6.4.0`
+* docs (badges, typos)
+* add tests for correct work of block scoping [#8](https://github.com/alekseykulikov/babel-preset-es2015-node5/issues/8)
+* travis.ci
+
 ## 1.1.1 / 2015-11-30
 
 * pin deps to `^6.2.4`
