@@ -6,8 +6,9 @@
   "parser": "babel-eslint",
   "rules": {
     "semi": [2, "never"],
-    "object-curly-spacing": [2, "always"],
     "no-use-before-define": [2, "nofunc"],
-    "id-length": 0
+    "no-param-reassign": 0,
+    "id-length": 0,
+    "max-len": 0
   }
 }
