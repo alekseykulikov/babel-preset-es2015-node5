@@ -8,7 +8,7 @@
 
 Node@5 has great [ES2015 support](https://nodejs.org/en/docs/es6/),
 this module just adds missing features:
-- destructing assignment ([transform-es2015-destructuring](http://babeljs.io/docs/plugins/transform-es2015-destructuring/))
+- destructuring assignment ([transform-es2015-destructuring](http://babeljs.io/docs/plugins/transform-es2015-destructuring/))
 - rest & default parameters ([transform-es2015-parameters](http://babeljs.io/docs/plugins/transform-es2015-parameters/))
 - modules ([transform-es2015-modules-commonjs](http://babeljs.io/docs/plugins/transform-es2015-modules-commonjs/))
 - unicode & sticky regular expressions ([transform-es2015-sticky-regex](http://babeljs.io/docs/plugins/transform-es2015-sticky-regex/) & [transform-es2015-unicode-regex](http://babeljs.io/docs/plugins/transform-es2015-unicode-regex/))
