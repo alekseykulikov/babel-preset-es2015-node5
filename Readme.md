@@ -13,6 +13,7 @@ this module just adds missing features:
 - modules ([transform-es2015-modules-commonjs](http://babeljs.io/docs/plugins/transform-es2015-modules-commonjs/))
 - unicode & sticky regular expressions ([transform-es2015-sticky-regex](http://babeljs.io/docs/plugins/transform-es2015-sticky-regex/) & [transform-es2015-unicode-regex](http://babeljs.io/docs/plugins/transform-es2015-unicode-regex/))
 - better function name support ([transform-es2015-function-name](http://babeljs.io/docs/plugins/transform-es2015-function-name/))
+- fix reserved words in shorthand properties [transform-es2015-shorthand-properties](https://github.com/alekseykulikov/babel-preset-es2015-node5/issues/10)
 
 ## Install
 
