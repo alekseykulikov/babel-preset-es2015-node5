@@ -36,4 +36,15 @@ describe('babel-preset-es2015-node5', () => {
     }
     expect(objCopy).eql(obj)
   })
+
+  it('shorthand properties', () => {
+    let val = 1
+    function get() { return val }
+    function set(key) { val = key }
+
+    const obj = { get, set }
+    expect(obj.get()).equal(1)
+    obj.set(5)
+    expect(obj.get()).equal(5)
+  })
 })
