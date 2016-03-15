@@ -1,3 +1,8 @@
+## 1.2.0 / 2016-03-15
+
+* fix reserved words in shorthand properties [#10](https://github.com/alekseykulikov/babel-preset-es2015-node5/issues/10)
+* pin deps to `^6.7.x`
+
 ## 1.1.2 / 2016-01-21
 
 * pin deps to `^6.4.0`
